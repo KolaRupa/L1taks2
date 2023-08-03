@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <style>
+        body {
+            background-color: white;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: grey;
+}
+section {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+img{
+    right: 0;
+    width: 300px;
+    height: 250px;
+}
+h2{
+    font-size: 50px;
+}
+button{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    transform: translateX(100%);
+    cursor: pointer;
+    transition-duration: 0.4s;
+    padding: 16px 32px;
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+    border-radius: 12px;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KOLA RUPA</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#studies">Studies</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            As a dedicated and motivated student, I am pursuing Btech with a strong passion for learning and academic excellence. Through my coursework and extracurricular activities, I have developed valuable skills in programming languages and core side. I am eager to apply my knowledge and contribute to industry while continuously expanding my abilities in a dynamic and challenging environment.
+        </p>
+        <img src="https://m.media-amazon.com/images/I/41IK02LISNL.jpg" alt="Profile pic">
+    </section>
+    <button class="button">Open Cv</button>
+    <section id="studies">
+        <h2>Studies</h2>
+        <div class="study">
+        <ul style="list-style-type: square;">
+            <li>Btech in ECE branch in XYZ college</li>
+            <li>Intermediate in YZA college</li>
+            <li>SSC in abc schoolz</li>
+        </ul>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <p style="font-size: 40px">
+                Ultrasonic glasses for the blind
+            </p>
+            <p>The ultrasonic sensors are mounted on glasses on 2 side to act as eyes. The sensors constantly transmit and receive ultrasonic waves to receive obstacle data. The Microcontroller is constantly getting this data from the sensors.Based on this data the microcontroller operates a vibrator motors mounted on the respective side of the glasses. The microcontroller scans the sensor data and the operates the vibrator motors according to the data received in order to get a better understanding of the distance. Thus this system allows blind person to get a more detailed idea of obstacles/objects in front of each eye using vibrations.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+        <!-- Add more projects here -->
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <p style="font-size: 40px"></p>
+            <ul style="list-style-type: disc;">
+                <li>Python</li>
+                <li>C language</li>
+                <li>Java</li>
+                <li>Web development</li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>
+            You can contact me at example@email.com
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Kola Rupa. All rights reserved.</p>
+    </footer>
+</body>
+</html>
